@@ -111,6 +111,7 @@ public class ChatListAdapter extends BaseAdapter{
 
         String msg = message.getMessage();
         holder.body.setText(msg);
+
         return convertView;
     }
 
